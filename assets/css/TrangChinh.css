@@ -1,0 +1,138 @@
+/* Dropdown Button */
+.container {
+    margin-top: 20px;
+}
+
+.dropbtn {
+    display: inline-block;
+    background-color: #bb2019;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+}
+
+.dropbtn:hover {
+    text-decoration: underline;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    bottom: -8px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #bb2019;
+}
+
+#dangnhap {
+    color: white;
+    width: 100px;
+    margin-left: 10px;
+    padding: 0;
+}
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    .description {
+        width: 800px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: justify;
+    }
+    .xct {
+        width: 200px;
+        padding-top: 20px;
+        padding-left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            justify-content: center;
+            width: 150px;
+            height: 40px;
+        }
+    }
+    img {
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-right: 30px;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+#mynavbar {
+    display: flex;
+    background-color: #bb2019;
+    justify-content: space-between;
+}
+#container {
+    display: flex;
+}
+
+.list-group {
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.list-group .list-group-item {
+    color: black;
+    background-color: var(--bs-card-title-color);
+}
+
+.list-group .list-group-item:hover {
+    background-color: #ccc;
+    transition: 0.3s;
+}
+.container-fluid {
+    background-color: #bb2019;
+}
+.navbar {
+    background-color: #bb2019;
+    img {
+        background-color: white;
+    }
+}
+
+.nav-bar-list {
+    display: flex;
+    align-items: center;
+}
